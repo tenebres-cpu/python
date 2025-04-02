@@ -94,13 +94,3 @@ def aplica_desconto(preso):
 df['Preço com Desconto'] = df['Preço'].apply(aplica_desconto)
 df
 
-dados = {
-    "Ptoduto": ['caneta', 'caderno', 'livro'],
-    "Preço": [45000, 30000, 55500, 98000],
-    }
-
-def aplica_desconto(preço):
-    desconto = preço * 0,8
-    return desconto
-
-df1['Preço_Desconto'] = df1[]
